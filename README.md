@@ -26,7 +26,7 @@ view.frame = [WWFrame frameWithX:10 Y:10 Widht:50 Height:50];
 
 ## License
 
-WWFrame is available under the MIT license.
+WWFrame is available under the license.
 
 Copyright (c)2016 Weicheng Wang
 
