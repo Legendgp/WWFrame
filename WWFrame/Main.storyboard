@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9532" systemVersion="15C50" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="cgS-Xs-27f">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9530"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KvY-Xk-HDJ">
+                                <rect key="frame" x="112" y="214" width="151" height="57"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="151" id="Fml-xv-MmV"/>
+                                    <constraint firstAttribute="height" constant="57" id="KxR-oe-JXr"/>
+                                </constraints>
+                                <state key="normal" title="code in iphone 5"/>
+                                <connections>
+                                    <segue destination="IjF-d7-xhx" kind="push" id="M3M-Vv-Q29"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9qv-0R-hzf">
+                                <rect key="frame" x="112" y="294" width="151" height="57"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="151" id="VhT-fz-xfu"/>
+                                    <constraint firstAttribute="height" constant="57" id="pkC-cD-iXd"/>
+                                </constraints>
+                                <state key="normal" title="code in iphone 6"/>
+                                <connections>
+                                    <segue destination="LZR-du-dWv" kind="push" id="hqC-qZ-HX6"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fJN-y4-Xz8">
+                                <rect key="frame" x="112" y="380" width="151" height="57"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="IcL-hA-84g"/>
+                                    <constraint firstAttribute="width" constant="151" id="gpa-IA-1CO"/>
+                                </constraints>
+                                <state key="normal" title="code in iphone 6P"/>
+                                <connections>
+                                    <segue destination="AJu-2d-2TZ" kind="push" id="ljL-1r-qfE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YBa-ZC-Bjk">
+                                <rect key="frame" x="112" y="271" width="151" height="23"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="151" id="b7t-4y-udS"/>
+                                    <constraint firstAttribute="height" constant="23" id="pYE-Am-NFI"/>
+                                </constraints>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ijn-Ua-zjq">
+                                <rect key="frame" x="112" y="124" width="151" height="57"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="57" id="X2s-vh-Rrs"/>
+                                    <constraint firstAttribute="width" constant="151" id="bIN-7f-7ZL"/>
+                                </constraints>
+                                <state key="normal" title="code in iphone 4"/>
+                                <connections>
+                                    <segue destination="Th8-t1-x2T" kind="push" id="Jlk-FV-IgC"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="KvY-Xk-HDJ" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="0Jz-eV-seB"/>
+                            <constraint firstItem="YBa-ZC-Bjk" firstAttribute="top" secondItem="KvY-Xk-HDJ" secondAttribute="bottom" id="6yd-cO-ZeF"/>
+                            <constraint firstItem="KvY-Xk-HDJ" firstAttribute="top" secondItem="Ijn-Ua-zjq" secondAttribute="bottom" constant="33" id="8wj-zV-OkU"/>
+                            <constraint firstItem="fJN-y4-Xz8" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Gy2-1V-kEU"/>
+                            <constraint firstItem="9qv-0R-hzf" firstAttribute="top" secondItem="YBa-ZC-Bjk" secondAttribute="bottom" id="Kuh-zS-r1S"/>
+                            <constraint firstItem="YBa-ZC-Bjk" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Pvt-1P-f57"/>
+                            <constraint firstItem="Ijn-Ua-zjq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="RMp-c4-lYS"/>
+                            <constraint firstItem="fJN-y4-Xz8" firstAttribute="top" secondItem="9qv-0R-hzf" secondAttribute="bottom" constant="29" id="dLa-Zr-c2A"/>
+                            <constraint firstItem="9qv-0R-hzf" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="v8b-nJ-rGJ"/>
+                            <constraint firstItem="YBa-ZC-Bjk" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="x0y-XJ-zVu"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Qo-Li-u1K"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-71.5" y="4.5"/>
+        </scene>
+        <!--Iphone4 View Controller-->
+        <scene sceneID="myH-fh-klU">
+            <objects>
+                <viewController id="Th8-t1-x2T" customClass="Iphone4ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="7SU-cm-8L7"/>
+                        <viewControllerLayoutGuide type="bottom" id="BH7-6a-8gx"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Qmk-jw-x9b">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="dop-CD-9yf"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UNx-12-Dv2" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="450.5" y="-1147.5"/>
+        </scene>
+        <!--Iphone5 View Controller-->
+        <scene sceneID="TUw-L6-jBC">
+            <objects>
+                <viewController id="IjF-d7-xhx" customClass="Iphone5ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="lvc-RA-HrJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="YPW-J9-eW9"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="AZb-gm-dVp">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="zho-Ku-d6N"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="NnY-jJ-yLv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1262.5" y="-391.5"/>
+        </scene>
+        <!--Iphone6P View Controller-->
+        <scene sceneID="8Tn-XK-Ebe">
+            <objects>
+                <viewController id="AJu-2d-2TZ" customClass="Iphone6PViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Xi5-Cb-7IE"/>
+                        <viewControllerLayoutGuide type="bottom" id="AyR-ph-BVV"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="pAn-65-2kc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="5Ah-20-14U"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Lo9-em-4XG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="450.5" y="1135.5"/>
+        </scene>
+        <!--Iphone6 View Controller-->
+        <scene sceneID="KFy-o4-YZz">
+            <objects>
+                <viewController id="LZR-du-dWv" customClass="Iphone6ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="8AD-Z5-Qey"/>
+                        <viewControllerLayoutGuide type="bottom" id="WDx-sV-lFz"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GrK-da-sKi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="MaY-ah-z4K"/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IBZ-Q8-Npy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1262.5" y="372.5"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Jh8-Zo-GNX">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="cgS-Xs-27f" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="lrp-pZ-5D4">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="cNi-6G-8L9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XgE-qA-6s6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-564" y="5"/>
+        </scene>
+    </scenes>
+</document>
