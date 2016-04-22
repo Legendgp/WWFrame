@@ -1,6 +1,6 @@
 # WWFrame
 
-Easy way to access view's frame in iOS. 
+Easy way to laout view's frame in iOS. 
 It will auto layout origin and size In your target.
 
 ## Compatibility
